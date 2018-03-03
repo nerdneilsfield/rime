@@ -1,5 +1,5 @@
 patch:
-  "menu/page_size": 6   # 每頁候選數
+  "menu/page_size": 8   # 每頁候選數
   "punctuator/import_preset": symbols
   "punctuator/symbols":
     "/fs": [½, ‰, ¼, ⅓, ⅔, ¾, ⅒ ]
@@ -45,3 +45,8 @@ patch:
     - "✘"
     - "✖"
     - "✕"
+  schema_list:
+    - schema: double_pinyin_mspy   # 微軟雙拼
+    - schema: emoji         # emoji表情
+
+
